@@ -59,7 +59,7 @@ function MySidebar() {
           </IconButton>
         </Box>
 
-        {/* Avatar */}
+        {/* Avatar
         {!collapsed && (
           <Box textAlign="center">
             <Box display="flex" alignItems={"center"} justifyContent="center">
@@ -76,7 +76,8 @@ function MySidebar() {
               Software Developer
             </Typography>
           </Box>
-        )}
+        )} */}
+
         <Menu
           rootStyles={{
             backgroundColor: "transparent",
@@ -117,10 +118,7 @@ function MySidebar() {
               Account settings
             </MenuItem>
           </SubMenu>
-          <MenuItem
-            routerLink={<Link to="/dashboard" />}
-            icon={<HomeOutlinedIcon />}
-          >
+          <MenuItem routerLink={<Link to="/" />} icon={<HomeOutlinedIcon />}>
             Dashboard
           </MenuItem>
           <MenuItem
