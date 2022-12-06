@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 
 function Dashboard() {
   return (
-    <Box sx={{ m: 2 }}>
+    <Box m="20px">
       <Header title="Dashboard" subtitle="Welcome to your dashboard." />
     </Box>
   );

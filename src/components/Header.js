@@ -7,7 +7,7 @@ function Header(props) {
   const colors = tokens(theme.palette.mode);
   const { title, subtitle } = props;
   return (
-    <Box>
+    <Box m="20px 20px 0 20px">
       <Typography variant="h2" fontWeight="bold" color={colors.grey[100]}>
         {title}
       </Typography>
